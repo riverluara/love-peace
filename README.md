@@ -3,10 +3,10 @@ This README contains basic information about the project and its artifacts. If k
 
 ## Team
 
+- JaJuan Webster
+- Israel Anthony
 - Sadanand Naik
 - Yun Jiang
-- MEMBER3
-- MEMBER4
 - MEMBER5
 
 ## Mission Statement
