@@ -3,9 +3,10 @@ This README contains basic information about the project and its artifacts. If k
 
 ## Team
 
+<<<<<<< HEAD
 - JaJuan Webster
-- MEMBER2
-- MEMBER3
+- Israel Anthony
+- Sadanand Naik
 - MEMBER4
 - MEMBER5
 
