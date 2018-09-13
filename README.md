@@ -3,7 +3,7 @@ This README contains basic information about the project and its artifacts. If k
 
 ## Team
 
-- MEMBER1
+- JaJuan Webster
 - MEMBER2
 - MEMBER3
 - MEMBER4
