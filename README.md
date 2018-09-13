@@ -6,7 +6,7 @@ This README contains basic information about the project and its artifacts. If k
 - MEMBER1
 - Israel Anthony
 - Sadanand Naik
-- MEMBER4
+- Weihao Yan
 - MEMBER5
 
 ## Mission Statement
