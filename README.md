@@ -5,7 +5,7 @@ This README contains basic information about the project and its artifacts. If k
 
 - MEMBER1
 - Israel Anthony
-- MEMBER3
+- Sadanand Naik
 - MEMBER4
 - MEMBER5
 
