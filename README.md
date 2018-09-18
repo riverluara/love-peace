@@ -1,24 +1,32 @@
-# IGME-601 Fall 2018 Team *YOUR_TEAM_NAME* Overview
+# IGME-601 Fall 2018 TeamE Overview
 This README contains basic information about the project and its artifacts. If kept up to date, it will act as a primary dashboard for the project.
 
 ## Team
 
-- JaJuan Webster
 - Israel Anthony
 - Sadanand Naik
-- Weihao Yan
 - Yun Jiang
+- JaJuan Webster
+- Weihao Yan
 
 ## Mission Statement
-*Replace this with the overall objectives that your team has agreed upon. What is the goal of the project (from a learning and product perspective)? Who is your target audience? How will you define success?*
+Creating an action-packed space-racing experience with a challenging environment. Our target audience is those who enjoy racing but a little bit of a twist to it; strategy-targeted, simulation. Success will be defined by having the How will you define success?*
 
 ## Communications
 
 ### Slack
-*Add info about how to join/use your team's Slack workspace. What is it? List the channels and how each should be used? etc.*
+Workspace Name: 2181-igme-601-TeamE
+
+#### Channels
+#contact_info: contact information of all the devs working on the project
+#general: general conversation regarding the project
+#github_repo: connection to the git repo
+#random: anything unrelated to the project
+#virtual_standups: provides weekly check-ins from all devs
+#when2meet: set meeting times outside of class
 
 ### Meeting Times
-*Set at least 1 out-of-class meeting time and note times when the entire group is usually free for additional meetings as needed.*
+*Meeting Time:* Mondays 1pm (1:15pm) - 2pm in _Golisano 2000_
 
 ### Trello
 This project will use Trello for sprint planning and to track user story status.
@@ -26,7 +34,6 @@ This project will use Trello for sprint planning and to track user story status.
 *Once your group has a Trello team/board, add a link to it here.*
 
 ## Repository Overview
-*As the project progresses, add notes here about how the repository is organized, how branches are being used, etc.*
 
 | File/Directory | Description |
 | -------------- | ----------- |
