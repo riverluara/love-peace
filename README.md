@@ -10,7 +10,7 @@ This README contains basic information about the project and its artifacts. If k
 - Weihao Yan
 
 ## Mission Statement
-Creating an action-packed space-racing experience with a challenging environment. Our target audience is those who enjoy racing but a little bit of a twist to it; strategy-targeted, simulation. Success will be defined by having the How will you define success?*
+Creating an action-packed space-racing experience with a challenging environment. Our target audience is those who enjoy racing but a little bit of a twist to it; strategy-targeted, simulation. Success will be defined by how well the environment looks and having at least one functional ship moving in the environment
 
 ## Communications
 
@@ -18,20 +18,20 @@ Creating an action-packed space-racing experience with a challenging environment
 Workspace Name: 2181-igme-601-TeamE
 
 #### Channels
-#contact_info: contact information of all the devs working on the project
-#general: general conversation regarding the project
-#github_repo: connection to the git repo
-#random: anything unrelated to the project
-#virtual_standups: provides weekly check-ins from all devs
-#when2meet: set meeting times outside of class
+- #contact_info: contact information of all the devs working on the project
+- #general: general conversation regarding the project
+- #github_repo: connection to the git repo
+- #random: anything unrelated to the project
+- #virtual_standups: provides weekly check-ins from all devs
+- #when2meet: set meeting times outside of class
 
 ### Meeting Times
-*Meeting Time:* Mondays 1pm (1:15pm) - 2pm in _Golisano 2000_
+Meeting Time: Mondays 1pm (1:15pm) - 2pm in _Golisano 2000_
 
 ### Trello
 This project will use Trello for sprint planning and to track user story status.
 
-*Once your group has a Trello team/board, add a link to it here.*
+Link: ...
 
 ## Repository Overview
 
@@ -43,4 +43,3 @@ This project will use Trello for sprint planning and to track user story status.
 
 ## Other Resources
 - [Markdown](https://help.github.com/categories/writing-on-github/) is a convenient method of documentation because it can have nice formatting while still being a plain text file (which allows multiple team members to edit sections and view/merge differences).
-- *...*
