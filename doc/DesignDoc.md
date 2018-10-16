@@ -163,7 +163,7 @@ The following model shows a high-level view of the software architecture.Since t
 
 > You'll add to this section as needed as the project progresses
 
-![DetailedDesign](DetailedDesign.pdf)
+![DetailedDesign](DetailedDesign.png)
 
 ## Issues and Risks
 
