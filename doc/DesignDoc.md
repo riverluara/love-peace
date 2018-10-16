@@ -50,6 +50,20 @@ This section describes the main features of the game.
 
 > In this section you do not need to be exhaustive and list every story.  Focus on top-level features and maybe Epics and *critical* Stories.
 
+#### Epic
+* Pre-Race Menu: As a player, I would like to select my ship, the map I am racing on, and start the race so that I can play against my opponent.
+ * Ship Customization: As a player, I would like to make all necessary customizations to my ship before starting a race so that I am aware of what equipment I have available and so that I can distinguish my ship from others.
+  * Visual Ship Customization
+  * Ship Class Select
+  * Starting Ship Equipment
+ * Map Select
+ * Race Start
+
+* Environmental Obstacles: As a player, I would like to have different kinds of environmental obstacles that I may use to my benefit or that may hurt me if I am too careless so that the race environment is much more dynamic.
+ * Black Holes
+ * Asteriods
+ * Gamma Burst Storm
+  
 ### Non-functional Requirements
 > Key NFRs and technical constraints
 
