@@ -23,12 +23,10 @@ Captivating visuals of 3D space: Depict never before seen gamma bursts and other
 ### Purpose
 > Provide a very brief statement about the project and the most important user group and user goals.
 Statement: 
-           To improve programming as well as creative thinking 
-
-           To understand how to mix different elements to create a good game
-           
-           To develop teamplay and coordination skills
-           
+           To improve programming as well as creative thinking;
+           To understand how to mix different elements to create a good game;
+           To develop teamplay and coordination skills;
+                     
 User group: 
             Teenagers and Young Adults
 
