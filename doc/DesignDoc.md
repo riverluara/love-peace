@@ -15,18 +15,27 @@
 This is a summary of the project.
 
 Racing game with no boundaries: Start and finish, but does not confine the player to a path.
+
 Create action-packed experiecnce with a challenging environment: Forces player to strategize.
+
 Captivating visuals of 3D space: Depict never before seen gamma bursts and other space phenomena.
 
 ### Purpose
 > Provide a very brief statement about the project and the most important user group and user goals.
 Statement: To improve programming as well as creative thinking; 
+
            To understand how to mix different elements to create a good game;
+           
            To develop teamplay and coordination skills.
+           
 User group: Teenagers and Young Adults;
+
             Hardcore racers;
+            
             Fans who like to have interest in action and racing with strategizing their moves.
+            
 User goal: Users can play the game that offers players the best of both racing as well as shooting action.
+
 (Like.. what users want to get from our game?)
 
 ### Glossary and Acronyms
