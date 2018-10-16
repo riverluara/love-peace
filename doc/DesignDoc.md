@@ -28,12 +28,10 @@ Statement:
            To develop teamplay and coordination skills;
                      
 User group: 
-            Teenagers and Young Adults
-
-            Hardcore racers
-            
-            Fans who like to have interest in action and racing with strategizing their moves
-            
+            Teenagers and Young Adults;
+            Hardcore racers;
+            Fans who like to have interest in action and racing with strategizing their moves;
+                       
 User goal: Users can play the game that offers players the best of both racing as well as shooting action.
 
 (Like.. what users want to get from our game?)
