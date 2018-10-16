@@ -105,12 +105,45 @@ This section describes the application domain.
 This section describes the application architecture.
 
 ### Summary
-The following model shows a high-level view of the webapp's architecture.
+
+The following model shows a high-level view of the software architecture.Since the game offers a lot of options for the player to choose from before beginning the game, the most efficient architecture would involve data driven game logic. However, time constraint is a major issue, at least until the development of a  working prototype, and hence we will be using an unorthodox architecture. Instead of having a single gamelogic with all definitions within this logic, we will be developing individual game logics for each individual map as every map may require a different kind of interactive system. The choice of which game logic to use while running the game-loop depends on which map the player wishes to race on. We might begin with an abstract gamelogic class which will possess a few basic game rules and the common stuff and then have further subclasses for each map defining their different physics and rules of interaction and game-object maintenance. We will also have different types of ship classes to choose from for the player. Based on the player’s choice we will pass in the relevant code for ship class to interact with the game logic as shown below.
 
 ![Architecture Overview](architecture-tiers-and-layers.png)
 > Replace the placeholder image above with your team's own architecture model. 
 
 > Add a description of the architecture and key technical decisions
+
+#### GameLogic Breakdown:
+
+* The gamelogic will receive data from the input controllers as well as the ship class and will call multiple classes and their methods  to maintain the gamerules and the various logics of a particular map. It will also be responsible for updating and maintaining the gameobjects of the map as well as the relevant statistics of the ship based on its response to the input commands from the user. 
+
+* Of the several classes it will be calling, the Input Response class will be responsible for responding to the data and then calling other relevant class methods to maintain and update the status of the ship (such as the ship manager) as well as detecting triggers using the trigger methods defined in the ‘Triggers’ class.
+
+* The Ship manager class will be responsible for updating the status of the ship on the ship class as well as using the methods related to using the tech of the ship.
+
+* The Map rules class will work with the Game objects class to maintain the rules of the game and so forth.
+
+#### User Interface Breakdown:
+
+* The user interface will be a class which will be continuously updating the statistical data on the HUD of the screen view.
+
+* It will also be responsible for maintaining the targeting cursor position on the player screens and playing other targeting related animations if and when needed based on the data it receives from the gamelogic.
+
+* It will also be maintaining the minimap on the HUD constantly based on the data it receives from the gamelogic.
+
+#### Visuals BreakDown:
+
+* The visuals will also be a class which will receive commands and data from the gamelogic and will help maintain the feel of environment surrounding the players ship.
+
+* It will primarily be responsible for the creation and destruction of prefab instances of the assets representing various gameobjects.
+
+* It will also be responsible for managing special effects & animations of interactions between the players ship and the environment.
+
+#### Ship  BreakDown:
+
+* Ship class will be responsible for providing data relevant to the ship to the gamelogic. It will also allow the gamelogic class to change data as the game progresses.
+* Additionally it will also possess the methods related to the techs used by the ship and provide them to the gamelogic to make use of as the player commands.
+
 
 ### Component 1 ...
 > Provide a summary of each component with extra models as needed
