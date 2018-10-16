@@ -68,7 +68,7 @@ This section describes the application domain.
 
 > Provide a high-level overview of the domain. You can discuss the more important domain entities and their relationship to each other.
 
-# Core Design:
+### Core Design:
 
 * Space Blitz, at heart, is a racing game located in outer space and possibly on planets with versatile climates and topography. The key difference in this design is that there is no specific path for the player to run on. There is simply a starting point and an end point to the race. The rest is an interaction between each player and the environment/map and among multiple players themselves. 
 
@@ -76,13 +76,13 @@ This section describes the application domain.
 
 * The interaction among the players is somewhat inspired by the gameplay of the game called Blur. The player can aim and shoot with the help of a targeting system that will be controlled by the mouse while they race. 
 
-# Plot & Settings:
+### Plot & Settings:
 
 * The game is located in an outer space environment giving the players a taste of the potential hazards that may befall them in space travel. The theme of the game is fast and furious as well as futuristic. All the tech and ships will be from an era where space travel is common. The sound and music will also support this fast and furious theme coupled with cool futuristic animations. 
 
 * We have  basic plot involving humanity dividing up into and arms race sometime in the 3000’s. Further depth is yet to be given to this narrative.
 
-# Gameplay:
+### Gameplay:
 
 * After entering the game the player will get to the main menu after witnessing a creative splash screen. The player will have 4 options, namely, ‘RACE’, ‘Save Configuration’, ‘Options’ and ‘Exit’.
 
