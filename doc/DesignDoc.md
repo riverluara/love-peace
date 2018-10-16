@@ -86,6 +86,7 @@ We would require the following to be able to create the game:
 * _Weight Classes_
   * Determines the different type of equipment that is attached to the ship. Also holds a certain speed and torque for movement.
 * _Equipment_
+  * Protects against obstacles that can harm the ship.
   * _Boosts_
     * Increases speed of the ship for a specified amount of time.
   * _Tech_
