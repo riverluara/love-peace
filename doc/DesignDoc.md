@@ -38,12 +38,7 @@ User goal: Users can play the game that offers players the best of both racing a
 
 
 ## Requirements
-We would require the following to be able to create the game:
-      -A game engine.
-      -Art Assets.
-      -Sound Assets.
-      -Animations.
-      -8-12 months of development including play testing and debugging.
+We would require the following to be able to create the game:A game engine.Art Assets.Sound Assets.Animations.8-12 months of development including play testing and debugging.
 
 ### Features
 
@@ -53,6 +48,7 @@ This section describes the main features of the game.
 
 ### Non-functional Requirements
 > Key NFRs and technical constraints
+
 --Creating game does pose a technical challenge for the developers.
 --The project is also constrained to using Unity’s physics engine as the team lacks the knowledge to create one on their own.
 --The game may need a lot more time than anticipated given the lack of technical experience on the team.
