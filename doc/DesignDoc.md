@@ -12,20 +12,11 @@
 
 ## Executive Summary
 
-This is a summary of the project.
-
-Racing game with no boundaries: Start and finish, but does not confine the player to a path.
-
-Create action-packed experiecnce with a challenging environment: Forces player to strategize.
-
-Captivating visuals of 3D space: Depict never before seen gamma bursts and other space phenomena.
+So far we have finalised on most design elements of the game. We plan to get most of the assets from the public domain. We have decided on a basic architecture on how to implement the code for the game.  
 
 ### Purpose
 > Provide a very brief statement about the project and the most important user group and user goals.
-Statement: 
-           To improve programming as well as creative thinking;
-           To understand how to mix different elements to create a good game;
-           To develop teamplay and coordination skills;
+Statement: The game aims to appease teenagers and young adults alike by giving an adrenaline pumping fast and furious action racing game.
                      
 User group: 
             Teenagers and Young Adults;
@@ -41,10 +32,18 @@ User goal: Users can play the game that offers players the best of both racing a
 
 | Term | Definition |
 |------|------------|
-| term/acronym | definition |
+| Rapier	 | Small and light category spaceship |
+| Eviscerator		| Medium category spaceship |
+| Goliath | Heavy category space|
 
 
 ## Requirements
+We would require the following to be able to create the game:
+      -A game engine.
+      -Art Assets.
+      -Sound Assets.
+      -Animations.
+      -8-12 months of development including play testing and debugging.
 
 ### Features
 
@@ -54,6 +53,10 @@ This section describes the main features of the game.
 
 ### Non-functional Requirements
 > Key NFRs and technical constraints
+--Creating game does pose a technical challenge for the developers.
+--The project is also constrained to using Unity’s physics engine as the team lacks the knowledge to create one on their own.
+--The game may need a lot more time than anticipated given the lack of technical experience on the team.
+
 
 
 ## Domain
