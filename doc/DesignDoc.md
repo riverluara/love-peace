@@ -53,7 +53,7 @@ This section describes the main features of the game.
 
 This section describes the application domain.
 
-![Domain Model](domain-model-placeholder.png)
+![Domain Model](domainanalysis.png)
 > Replace the placeholder image above with your team's own domain model. 
 
 > Provide a high-level overview of the domain. You can discuss the more important domain entities and their relationship to each other.
