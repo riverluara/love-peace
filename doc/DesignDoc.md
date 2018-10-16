@@ -168,7 +168,9 @@ The following model shows a high-level view of the software architecture.Since t
 ## Issues and Risks
 
 > Open issues, risks, and your plan to address them (or plan to research options)
+
 Risks:
+
 * AI coding is problem.
 * Graphics and animations might not potentially be available upto specifications
 * Implementing multiplayer might be unsuccessful due to limited networking knowledge
