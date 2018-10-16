@@ -1,5 +1,5 @@
 ﻿# PROJECT Design Documentation
-> The following template provides the headings for your Design Documentation.  As you edit each section make sure you remove these commentary 'blockquotes'; the lines that start with a > character.
+> Design Documentation
 
 # Team Information
 * Team name: B.S. Studios
@@ -15,7 +15,7 @@
 So far we have finalised on most design elements of the game. We plan to get most of the assets from the public domain. We have decided on a basic architecture on how to implement the code for the game.  
 
 ### Purpose
-> Provide a very brief statement about the project and the most important user group and user goals.
+
 Statement: The game aims to appease teenagers and young adults alike by giving an adrenaline pumping fast and furious action racing game.
                      
 User group: 
@@ -28,7 +28,7 @@ User goal: Users can play the game that offers players the best of both racing a
 (Like.. what users want to get from our game?)
 
 ### Glossary and Acronyms
-> Provide a table of terms and acronyms.
+> Table of terms and acronyms.
 
 | Term | Definition |
 |------|------------|
@@ -46,9 +46,7 @@ We would require the following to be able to create the game:
 
 ### Features
 
-This section describes the main features of the game.
-
-> In this section you do not need to be exhaustive and list every story.  Focus on top-level features and maybe Epics and *critical* Stories.
+> Main features of the game
 
 #### Epic
 * Pre-Race Menu: As a player, I would like to select my ship, the map I am racing on, and start the race so that I can play against my opponent.
@@ -75,34 +73,30 @@ This section describes the main features of the game.
 
 ## Domain
 
-This section describes the application domain.
+> Application Domain
 
 ![Domain Model](domainanalysis.png)
 
-* Player
-  > Races through space against other players or AI
-  > Compete utilizing space ships
-* Outer Space
-  > Has a starting point and end point that are manipulated through obstacles
-* Ships
-  > Has weight that decides the appropriate attributes and equipment to go with it
-* Weight Classes
-  > Determines the different type of equipment that is attached to the ship
-  > Has a certain speed and torque for movement
-* Equipment
-  * Boosts
-    > Increases speed of the ship for a specified amount of time
-  * Tech
-    > Gives advantage over other ships for a specified amount of time
-* Obstacles
-  * Black Holes
-    > Damage ships to the point that they are completely destroyed
-  * Asteroids
-    > Damage ships not at significantly as black holes
-    > Throw ships off balance
-  * Gamma Bursts
-    > Damage ships at the least amount
-    > Disrupt functionality in the ship for a specific amount of time
+* _Player_
+  * Races through space against other players or AI utilizing space ships.
+* _Outer Space_
+  * Has a starting point and end point that are manipulated through obstacles.
+* _Ships_
+  * Has weight that decides the appropriate attributes and equipment to go with it.
+* _Weight Classes_
+  * Determines the different type of equipment that is attached to the ship. Also holds a certain speed and torque for movement.
+* _Equipment_
+  * _Boosts_
+    * Increases speed of the ship for a specified amount of time.
+  * _Tech_
+    * Gives advantage over other ships for a specified amount of time.
+* _Obstacles_
+  * _Black Holes_
+    * Damage ships to the point that they are completely destroyed.
+  * _Asteroids_
+    * Damage ships not at significantly as black holes, but throw them off balance.
+  * _Gamma Bursts_
+    * Damage ships at the least amount; they disrupt functionality in the ship for a specific amount of time.
 
 ### Core Design:
 
@@ -138,16 +132,13 @@ This section describes the application domain.
 
 ## Architecture
 
-This section describes the application architecture.
+> Application Architecture.
 
 ### Summary
 
 The following model shows a high-level view of the software architecture.Since the game offers a lot of options for the player to choose from before beginning the game, the most efficient architecture would involve data driven game logic. However, time constraint is a major issue, at least until the development of a  working prototype, and hence we will be using an unorthodox architecture. Instead of having a single gamelogic with all definitions within this logic, we will be developing individual game logics for each individual map as every map may require a different kind of interactive system. The choice of which game logic to use while running the game-loop depends on which map the player wishes to race on. We might begin with an abstract gamelogic class which will possess a few basic game rules and the common stuff and then have further subclasses for each map defining their different physics and rules of interaction and game-object maintenance. We will also have different types of ship classes to choose from for the player. Based on the player’s choice we will pass in the relevant code for ship class to interact with the game logic as shown below.
 
 ![Architecture Overview](architecture-tiers-and-layers.png)
-> Replace the placeholder image above with your team's own architecture model. 
-
-> Add a description of the architecture and key technical decisions
 
 ### GameLogic Breakdown:
 
@@ -183,13 +174,13 @@ The following model shows a high-level view of the software architecture.Since t
 
 ## Detailed Design
 
-> You'll add to this section as needed as the project progresses
+> Project Progression
 
 ![DetailedDesign](DetailedDesign.png)
 
 ## Issues and Risks
 
-> Open issues, risks, and your plan to address them (or plan to research options)
+> Open issues, risks, and our plan to address them (or plan to research options)
 
 Risks:
 
