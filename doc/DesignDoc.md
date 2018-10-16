@@ -60,9 +60,9 @@ This section describes the main features of the game.
   * Race Start
 
 * Environmental Obstacles: As a player, I would like to have different kinds of environmental obstacles that I may use to my benefit or that may hurt me if I am too careless so that the race environment is much more dynamic.
- * Black Holes
- * Asteriods
- * Gamma Burst Storm
+  * Black Holes
+  * Asteriods
+  * Gamma Burst Storm
   
 ### Non-functional Requirements
 > Key NFRs and technical constraints
