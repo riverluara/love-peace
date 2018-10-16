@@ -68,6 +68,36 @@ This section describes the application domain.
 
 > Provide a high-level overview of the domain. You can discuss the more important domain entities and their relationship to each other.
 
+# Core Design:
+
+* Space Blitz, at heart, is a racing game located in outer space and possibly on planets with versatile climates and topography. The key difference in this design is that there is no specific path for the player to run on. There is simply a starting point and an end point to the race. The rest is an interaction between each player and the environment/map and among multiple players themselves. 
+
+* The interaction between environment and the players involves skillful, strategic moves by the player in order to cross the distance in the least amount of time while avoiding potentially catastrophic damage due to obstacles present in the environment.
+
+* The interaction among the players is somewhat inspired by the gameplay of the game called Blur. The player can aim and shoot with the help of a targeting system that will be controlled by the mouse while they race. 
+
+# Plot & Settings:
+
+* The game is located in an outer space environment giving the players a taste of the potential hazards that may befall them in space travel. The theme of the game is fast and furious as well as futuristic. All the tech and ships will be from an era where space travel is common. The sound and music will also support this fast and furious theme coupled with cool futuristic animations. 
+
+* We have  basic plot involving humanity dividing up into and arms race sometime in the 3000’s. Further depth is yet to be given to this narrative.
+
+# Gameplay:
+
+* After entering the game the player will get to the main menu after witnessing a creative splash screen. The player will have 4 options, namely, ‘RACE’, ‘Save Configuration’, ‘Options’ and ‘Exit’.
+
+* The player can use the ‘Exit’ option to exit the game immediately. They may use the options menu to customize the gameplay mechanics, the sound or the graphics of the game.(It should be detailed that what gameplay mechanics.?)
+
+* The Save Configuration option allows players to choose and maintain a specific combination of the ship of their choice and the tech they choose to attach on that ship which can be directly loaded onto the Race menu to move ahead into the game without having to choose and re-attach everything again and again. 
+
+* The Race option brings the player to a menu where they may choose the location where they wish to race and also what type of ship they wish to use for that particular map as well as specify what tech to use on that ship. Additionally, they can also choose what type of game mode to play. From here they can press the “Start Race” Button to move ahead to the actual racing.
+
+![GamePlay](gameplay.png)
+
+* Once the Race has started the players will use their tech and skills with those techs to gain an advantage over their opponents while trying to avoid being damaged from incoming fire from opponents as well as natural obstacles present in the environment like space rocks, gamma bolts etc. All tech uses battery power whose reserves depend on the size of the player’s ship. So the player must be mindful of not overusing the tech and make each application count.
+
+* There are loading stations available for the player to go to and recharge their ship’s battery as well as health. They may also change the tech over at the loading stations at the cost of a small time penalty per tech change. The loading stations will be located a few ways away from the most direct routes to the end point so as to make the player be decisive if the they want to risk losing their ship and save some time or vice versa.
+
 
 
 ## Architecture
