@@ -2,12 +2,13 @@
 > The following template provides the headings for your Design Documentation.  As you edit each section make sure you remove these commentary 'blockquotes'; the lines that start with a > character.
 
 # Team Information
-* Team name: TEAMNAME
+* Team name: B.S. Studios
 * Team members
-  * MEMBER1
-  * MEMBER2
-  * MEMBER3
-  * MEMBER4
+  * Israel Anthony
+  * Sadanand Naik
+  * Yun Jiang
+  * JaJuan Webster
+  * Weihao Yan
 
 ## Executive Summary
 
