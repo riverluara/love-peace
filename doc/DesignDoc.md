@@ -1,4 +1,4 @@
-# PROJECT Design Documentation
+﻿# PROJECT Design Documentation
 > The following template provides the headings for your Design Documentation.  As you edit each section make sure you remove these commentary 'blockquotes'; the lines that start with a > character.
 
 # Team Information
@@ -34,7 +34,7 @@ User goal: Users can play the game that offers players the best of both racing a
 |------|------------|
 | Rapier	 | Small and light category spaceship |
 | Eviscerator		| Medium category spaceship |
-| Goliath | Heavy category space|
+| Goliath | Heavy category spaceship|
 
 
 ## Requirements
@@ -78,9 +78,31 @@ This section describes the main features of the game.
 This section describes the application domain.
 
 ![Domain Model](domainanalysis.png)
-> Replace the placeholder image above with your team's own domain model. 
 
-> Provide a high-level overview of the domain. You can discuss the more important domain entities and their relationship to each other.
+* Player
+  > Races through space against other players or AI
+  > Compete utilizing space ships
+* Outer Space
+  > Has a starting point and end point that are manipulated through obstacles
+* Ships
+  > Has weight that decides the appropriate attributes and equipment to go with it
+* Weight Classes
+  > Determines the different type of equipment that is attached to the ship
+  > Has a certain speed and torque for movement
+* Equipment
+  * Boosts
+    > Increases speed of the ship for a specified amount of time
+  * Tech
+    > Gives advantage over other ships for a specified amount of time
+* Obstacles
+  * Black Holes
+    > Damage ships to the point that they are completely destroyed
+  * Asteroids
+    > Damage ships not at significantly as black holes
+    > Throw ships off balance
+  * Gamma Bursts
+    > Damage ships at the least amount
+    > Disrupt functionality in the ship for a specific amount of time
 
 ### Core Design:
 
