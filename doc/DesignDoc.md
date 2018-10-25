@@ -92,6 +92,7 @@ We would require the following to be able to create the game:
   * _Tech_
     * Gives advantage over other ships for a specified amount of time.
 * _Obstacles_
+  * Impact equipment on ships
   * _Black Holes_
     * Damage ships to the point that they are completely destroyed.
   * _Asteroids_
