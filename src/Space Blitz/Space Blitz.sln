@@ -1,19 +1,32 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Space Blitz.Plugins", "Space Blitz.Plugins.csproj", "{6EF7B0CC-DA6F-A2E2-F9F0-4D82C4CEEFBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Space Blitz", "Space Blitz.csproj", "{67F48C91-DC4D-0180-AF9C-ED1D90A505BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Space Blitz.Editor", "Space Blitz.Editor.csproj", "{EC78F4E9-6D33-C58F-4D58-ACCF163993ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{6EF7B0CC-DA6F-A2E2-F9F0-4D82C4CEEFBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF7B0CC-DA6F-A2E2-F9F0-4D82C4CEEFBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF7B0CC-DA6F-A2E2-F9F0-4D82C4CEEFBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF7B0CC-DA6F-A2E2-F9F0-4D82C4CEEFBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F48C91-DC4D-0180-AF9C-ED1D90A505BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F48C91-DC4D-0180-AF9C-ED1D90A505BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F48C91-DC4D-0180-AF9C-ED1D90A505BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F48C91-DC4D-0180-AF9C-ED1D90A505BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC78F4E9-6D33-C58F-4D58-ACCF163993ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC78F4E9-6D33-C58F-4D58-ACCF163993ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC78F4E9-6D33-C58F-4D58-ACCF163993ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC78F4E9-6D33-C58F-4D58-ACCF163993ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
