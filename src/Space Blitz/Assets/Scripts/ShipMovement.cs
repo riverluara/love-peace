@@ -20,6 +20,7 @@ public class ShipMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         rb.velocity = transform.forward * shipVelocity;
         switch (m_input.Mode)
         {
@@ -172,5 +173,15 @@ public class ShipMovement : MonoBehaviour
         {
             transform.Rotate(new Vector3(0, 0, (-1) * HeavyTwistRate * Time.deltaTime), Space.Self);
         }
+    }
+
+    public void ChangeVelocity(float currentVelocity)
+    {
+        shipVelocity = Mathf.Clamp(currentVelocity, minVelocity, maxVelocity);
+    }
+
+    public void FreezeRotation()
+    {
+        rb.freezeRotation = true;
     }
 }
